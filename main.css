@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font-size: 100%;
+}
+  html,body{  
+      
+      display:flex;
+      height:100%;
+        }
+
+#main {
+    //outline:2px solid red;
+    width:65%;
+    text-align:center;
+    margin:auto;
+
+
+      }
+
+.profile-pic{
+            
+                border-radius:100%;
+                height:200px;
+                width:200px;
+           }
+
+.info-tab {
+    border: 2px solid blue;
+    padding: .8em 1.7em;
+    border-radius: 5px;
+    text-decoration: none; 
+    display:inline-block;
+     }
+
+.info-tab:hover{
+
+    background-color:blue;
+    color:white
+        
+}
